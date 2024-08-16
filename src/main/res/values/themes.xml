@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WhatsAppClone" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="actionOverflowButtonStyle">@style/ActionOverFlowButton</item>
+    </style>
+
+    <style name="ActionOverFlowButton"
+        parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="circle">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.WhatsAppClone" parent="Base.Theme.WhatsAppClone" />
+</resources>
